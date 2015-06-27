@@ -1,4 +1,4 @@
-# vantage-repl
+# vantage-hacker-news
 
 Demo extension for vantage.js. This is used in the vantage.js tutorial to demonstrate how to do a live import of a vantage extension.
 
