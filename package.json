@@ -1,0 +1,52 @@
+{
+  "name": "vantage-hacker-news",
+  "version": "1.0.0",
+  "description": "Demo extension for vantage.js",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vantagejs/vantage-hacker-news.git"
+  },
+  "keywords": [
+    "hacker-news",
+    "vantage",
+    "vantagejs",
+    "api"
+  ],
+  "author": "dthree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vantagejs/vantage-hacker-news/issues"
+  },
+  "homepage": "https://github.com/vantagejs/vantage-hacker-news#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "dependencies": {
+    "colors": "^1.1.0",
+    "lodash": "^3.9.1",
+    "moment": "^2.10.3",
+    "request": "^2.58.0"
+  },
+  "engines": {
+    "node": ">= 0.11.16",
+    "iojs": ">= 1.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": false
+    },
+    "rules": {
+      "no-underscore-dangle": 0,
+      "no-process-exit": 0
+    }
+  }
+}
