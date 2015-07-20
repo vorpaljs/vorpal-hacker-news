@@ -1,6 +1,6 @@
 {
   "name": "vantage-hacker-news",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Demo extension for vantage.js",
   "main": "./lib/index.js",
   "scripts": {
