@@ -24,11 +24,11 @@
   "homepage": "https://github.com/vantagejs/vantage-hacker-news#readme",
   "devDependencies": {
     "mocha": "^2.2.5",
-    "should": "^6.0.3"
+    "should": "^7.0.2",
+    "vantage": "^1.0.2"
   },
   "dependencies": {
-    "colors": "^1.1.0",
-    "lodash": "^3.9.1",
+    "chalk": "^1.1.0",
     "moment": "^2.10.3",
     "request": "^2.58.0"
   },
