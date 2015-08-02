@@ -1,5 +1,7 @@
 # vantage-hacker-news
 
+<img src="https://travis-ci.org/dthree/vantage.svg" alt="Build Status" />
+
 Demo extension for vantage.js. This is used in the vantage.js tutorial to demonstrate how to do a live import of a vantage extension.
 
 ##### Installation
