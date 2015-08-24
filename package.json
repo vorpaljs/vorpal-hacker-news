@@ -26,7 +26,7 @@
   "devDependencies": {
     "mocha": "^2.2.5",
     "should": "^7.0.2",
-    "vorpal": "^1.0.2",
+    "vorpal": "^1.0.0",
     "xo": "^0.7.1"
   },
   "dependencies": {
