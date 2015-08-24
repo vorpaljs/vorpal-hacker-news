@@ -1,31 +1,33 @@
 {
-  "name": "vantage-hacker-news",
+  "name": "vorpal-hacker-news",
   "version": "1.0.3",
-  "description": "Demo extension for vantage.js",
+  "description": "Demo extension for Vorpal.js",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "xo && mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vantagejs/vantage-hacker-news.git"
+    "url": "git+https://github.com/vorpaljs/vorpal-hacker-news.git"
   },
   "keywords": [
     "hacker-news",
+    "vorpal",
+    "vorpaljs",
     "vantage",
-    "vantagejs",
     "api"
   ],
   "author": "dthree",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vantagejs/vantage-hacker-news/issues"
+    "url": "https://github.com/vorpaljs/vorpal-hacker-news/issues"
   },
-  "homepage": "https://github.com/vantagejs/vantage-hacker-news#readme",
+  "homepage": "https://github.com/vorpaljs/vorpal-hacker-news#readme",
   "devDependencies": {
     "mocha": "^2.2.5",
     "should": "^7.0.2",
-    "vantage": "^1.0.2"
+    "vorpal": "^1.0.2",
+    "xo": "^0.7.1"
   },
   "dependencies": {
     "chalk": "^1.1.0",
@@ -39,14 +41,8 @@
   "files": [
     "lib"
   ],
-  "eslintConfig": {
-    "env": {
-      "node": true,
-      "browser": false
-    },
-    "rules": {
-      "no-underscore-dangle": 0,
-      "no-process-exit": 0
-    }
+  "xo": {
+    "envs": ["node", "mocha"],
+    "space": true
   }
 }

@@ -1,27 +1,27 @@
-# vantage-hacker-news
+# vorpal-hacker-news
 
-<img src="https://travis-ci.org/dthree/vantage.svg" alt="Build Status" />
+<img src="https://travis-ci.org/vorpaljs/vorpal-hacker-news.svg" alt="Build Status" />
 
-Demo extension for vantage.js. This is used in the vantage.js tutorial to demonstrate how to do a live import of a vantage extension.
+Demo extension for [Vorpal.js](https://github.com/dthree/vorpal). This is used in the [Vantage.js](https://github.com/dthree/vantage) demo in tandem with `vorpal-use` to demonstrate how to do a live import of a Vorpal extension.
 
 ##### Installation
 
 ```bash
-npm install vantage-hacker-news
-npm install vantage
+npm install vorpal-hacker-news
+npm install vorpal
 ```
 
 ##### Programmatic use
 
 ```js
 // index.js
-var Vantage = require('vantage')
-  , hn = require('vantage-hacker-news')
+var Vorpal = require('vorpal')
+  , hn = require('vorpal-hacker-news')
   ;
 
-var vantage = Vantage();
+var vorpal = Vorpal();
 
-vantage
+vorpal
   .delimiter('node~$')
   .use(hn)
   .show();
@@ -51,10 +51,10 @@ node~$
 
 ```bash
 $
-$ vantage 192.168.0.100:4000
+$ vorpal 192.168.0.100:4000
 websvr~$ 
-websvr~$ use vantage-hacker-news
-Successfully installed vantage-hacker-news
+websvr~$ use vorpal-hacker-news
+Successfully installed vorpal-hacker-news
 websvr~$ 
 websvr~$ hacker-news --length 10
 
