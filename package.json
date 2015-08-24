@@ -1,6 +1,6 @@
 {
   "name": "vorpal-hacker-news",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Demo extension for Vorpal.js",
   "main": "./lib/index.js",
   "scripts": {
@@ -42,7 +42,10 @@
     "lib"
   ],
   "xo": {
-    "envs": ["node", "mocha"],
+    "envs": [
+      "node",
+      "mocha"
+    ],
     "space": true
   }
 }
