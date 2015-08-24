@@ -1,6 +1,6 @@
 {
   "name": "vorpal-hacker-news",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Demo extension for Vorpal.js",
   "main": "./lib/index.js",
   "scripts": {
